@@ -4,7 +4,7 @@ import os
 import torch
 from tqdm import tqdm
 
-from src.metrics import accuracy
+from metrics import accuracy
 
 
 class Evaluation:

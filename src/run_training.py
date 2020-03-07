@@ -6,14 +6,14 @@ import torch
 from pytorch_pretrained_bert import BertTokenizer
 from pytorch_pretrained_bert.modeling import WEIGHTS_NAME, CONFIG_NAME
 
-from src.TorchInitializer import TorchInitializer
-from src.config import Config
-from src import Training
-from src.data_representation import Sst2Processor
-from src.evaluation import Evaluation
-from src.data_loader import load_data, DataType
-from src.model import get_pretrained_model, save_model
-from src.optimizer import build_optimizer
+from TorchInitializer import TorchInitializer
+from config import Config
+from training import Training
+from data_representation import Sst2Processor
+from evaluation import Evaluation
+from data_loader import load_data, DataType
+from model import get_pretrained_model, save_model
+from optimizer import build_optimizer
 
 
 def create_experiment_folder():

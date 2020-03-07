@@ -1,6 +1,6 @@
 import logging
 
-from src.data_representation import InputFeatures
+from data_representation import InputFeatures
 
 
 def _truncate_seq_pair(tokens_a, tokens_b, max_length):
